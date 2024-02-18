@@ -1018,12 +1018,22 @@ $(document).ready(function () {
                 $('.tabledata ').dataTable().fnDestroy();
                 let isi = '';
                 let no = 1;
+                let active = '';
+                let color = "";
                 data.userRegistered.forEach(e => {
+                    if (e.active == 1) {
+                        active = "Aktif";
+                        color = "text-success";
+                    } else {
+                        active = "Tidak Aktif";
+                        color = "text-danger";
+                    }
                     isi += `  <tr>
                                 <td class="text-center">`+ no + `</td>
                                 <td>`+ e.nama + `</td>
                                 <td>`+ e.email + `></td>
                                 <td>`+ e.whatsapp + `</td>
+                                <td class="`+ color + `">` + active + `</td>
                             </tr>`;
                     no++;
                 });
