@@ -39,7 +39,8 @@
                                 </div>
                                 <div class="form-group mt-3">
                                     <label for="harga">Keterangan</label>
-                                    <input type="text" class="form-control" id="keterangan" required name="keterangan" aria-describedby="keterangan" placeholder="Masukan Keterangan Vitamin">
+                                    <textarea class="form-control" id="keterangan" required name="keterangan" aria-describedby="keterangan" cols="30" rows="10"></textarea>
+
                                 </div>
                             </div>
                             <div class="modal-footer">
@@ -125,7 +126,9 @@
                                                     </div>
                                                     <div class="form-group mt-3">
                                                         <label for="harga">Keterangan</label>
-                                                        <input type="text" class="form-control" id="keterangan" required name="keterangan" aria-describedby="keterangan" placeholder="Masukan Keterangan Obat" value="<?= $d['keterangan'] ?>">
+
+                                                        <textarea class="form-control" id="keterangan" required name="keterangan" aria-describedby="keterangan" cols="30" rows="10"><?= $d['keterangan'] ?></textarea>
+
                                                     </div>
 
 
