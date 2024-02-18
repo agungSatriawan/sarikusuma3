@@ -27,7 +27,7 @@
                         <th class="text-center align-middle">Lihat Laporan</th>
                     </tr>
                 </thead>
-                <tbody class="dataUserRegistered">
+                <tbody class="dataUserLaporanRekamMedis">
                     <?php $i = 1; ?>
                     <?php foreach ($detail_user as $du) : ?>
                         <tr>

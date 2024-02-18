@@ -1017,6 +1017,7 @@ $(document).ready(function () {
                 $('.tablePemeriksaan').html('');
                 $('.tabledata ').dataTable().fnDestroy();
                 let isi = '';
+                let isiLaporanRekamMEdis = '';
                 let no = 1;
                 let active = '';
                 let color = "";
@@ -1034,6 +1035,13 @@ $(document).ready(function () {
                                 <td>`+ e.email + `></td>
                                 <td>`+ e.whatsapp + `</td>
                                 <td class="`+ color + `">` + active + `</td>
+                            </tr>`;
+                    isiLaporanRekamMEdis += `  <tr>
+                                <td class="text-center">`+ no + `</td>
+                                <td>`+ e.nama + `</td>
+                                <td>`+ e.email + `></td>
+                                <td>`+ e.whatsapp + `</td>
+                                <td><a href="detailLaporanPasien/`+ e.id + `">Lihat Laporan Pasien</a></td>
                             </tr>`;
                     no++;
                 });
@@ -1506,6 +1514,7 @@ $(document).ready(function () {
 
 
                 $('.dataUserRegistered').html(isi);
+                $('.dataUserLaporanRekamMedis').html(isiLaporanRekamMEdis);
                 $('.tableReservasi').html(isiReservasi);
                 $('.loadDataTransaksi').html(isiHistoryPembayaran);
                 let URL = window.location.href;
