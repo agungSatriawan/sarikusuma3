@@ -1492,7 +1492,7 @@ $(document).ready(function () {
                                             <td class="align-middle text-center">`+ np + `</td>
                                             <td class="align-middle">`+ p['nama'] + `</td>
                                             <td class="align-middle text-center">`+ p['tgl_lahir'] + `</td>
-                                            <td class="align-middle text-center"><?= hitung_umur($d['tgl_lahir']) ?></td>
+                                            <td class="align-middle text-center">`+ usia(new Date(p.tgl_lahir)) + `</td>
                                             <td class="align-middle text-center">`+ jkReservasi + `</td>
                                            
 
