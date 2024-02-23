@@ -9,5 +9,8 @@
 
 <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js" integrity="sha256-MdJguZUuNQK/uxtpZOo/x7/m5Q7IQjPvVXg+3oE9FyU=" crossorigin="anonymous"></script>
 <script src="//cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
-
+<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="<?= base_url('assets/js/bootstrap-datepicker.js') ?>"></script>
+<script src="<?= base_url('assets/js/lightbox.js') ?>"></script>
 <script src="<?= base_url('assets/js/script.js') ?>"></script>

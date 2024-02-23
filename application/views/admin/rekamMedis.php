@@ -334,33 +334,33 @@
                                                                     <h5>Pemeriksaan Meliputi</h5>
                                                                     <div class="pemeriksaan" style="padding-left: 30px;">
                                                                         <div class="form-group row mt-3">
-                                                                            <label for="visus_ods" class="col col-form-label"> VISUS ODS</label>
+                                                                            <label for="lampu15Titik" class="col col-form-label"> Lampu 15 Titik</label>
                                                                             <div class="col">
-                                                                                <input type="text" class="form-control" name="visus_ods">
+                                                                                <input type="text" class="form-control" name="lampu15Titik">
                                                                             </div>
                                                                         </div>
                                                                         <div class="form-group row mt-3">
-                                                                            <label for="tio_ods" class="col col-form-label"> TIO ODS</label>
+                                                                            <label for="lampuTerangGelap" class="col col-form-label">Lampu Terang Gelap</label>
                                                                             <div class="col">
-                                                                                <input type="text" class="form-control" name="tio_ods">
+                                                                                <input type="text" class="form-control" name="lampuTerangGelap">
                                                                             </div>
                                                                         </div>
                                                                         <div class="form-group row mt-3">
-                                                                            <label for="segmen_ant_ods" class="col col-form-label"> SEGMENT ANT ODS</label>
+                                                                            <label for="osilatorListrik" class="col col-form-label"> Osilator Listrik</label>
                                                                             <div class="col">
-                                                                                <input type="text" class="form-control" name="segmen_ant_ods">
+                                                                                <input type="text" class="form-control" name="osilatorListrik">
                                                                             </div>
                                                                         </div>
                                                                         <div class="form-group row mt-3">
-                                                                            <label for="fundus_ods" class="col col-form-label"> FUNDUS ODS</label>
+                                                                            <label for="stikMagnet" class="col col-form-label"> Stik Magnet</label>
                                                                             <div class="col">
-                                                                                <input type="text" class="form-control" name="fundus_ods">
+                                                                                <input type="text" class="form-control" name="stikMagnet">
                                                                             </div>
                                                                         </div>
                                                                         <div class="form-group row mt-3">
-                                                                            <label for="ishihara_test_ods" class="col col-form-label"> ISHIHARA TEST ODS</label>
+                                                                            <label for="snelled" class="col col-form-label"> Snellend Chart minus & plus</label>
                                                                             <div class="col">
-                                                                                <input type="text" class="form-control" name="ishihara_test_ods">
+                                                                                <input type="text" class="form-control" name="snelled">
                                                                             </div>
                                                                         </div>
                                                                         <div class="form-group row mt-3">

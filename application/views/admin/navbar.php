@@ -4,7 +4,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#toggle-navbar" aria-controls="toggle-navbar" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="uil-bars text-white"></i>
             </button>
-            <a class="navbar-brand" href="#">Admin<span class="main-color"> Sari Kusuma</span></a>
+            <a class="navbar-brand" href="#"><?= ucwords($this->session->userdata('username')) ?><span class="main-color"> Sari Kusuma 99</span></a>
 
 
         </div>
@@ -18,4 +18,5 @@
 
     </div>
 </nav>
+
 <div class="p-4">

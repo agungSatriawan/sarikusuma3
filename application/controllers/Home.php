@@ -28,6 +28,8 @@ class Home extends CI_Controller
 	}
 
 
+
+	// function untuk logout
 	public function logout()
 	{
 		$this->session->unset_userdata('username');
@@ -37,4 +39,5 @@ class Home extends CI_Controller
 													</div>');
 		redirect('home');
 	}
+	// end function untuk logout
 }

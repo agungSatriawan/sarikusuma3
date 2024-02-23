@@ -2,3 +2,7 @@
   padding-top: 6rem;
   background-color: #e2edff;
 }
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    width: 100%important;
+}

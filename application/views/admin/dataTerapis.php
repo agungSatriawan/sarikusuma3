@@ -1,4 +1,9 @@
 <div class="p-4">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <h2>Data Terapis</h2>
+        </div>
+    </div>
     <div class="row mb-3">
 
         <div class="flash mt-5 mb-3">

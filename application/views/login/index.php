@@ -156,24 +156,24 @@
 
         <form method="POST" action="<?= base_url('login') ?>">
             <div class="input-group">
-                <input type="text" id="username" name="username" class="input-field" placeholder="Email">
+                <input type="text" id="username" autocomplete="off" name="username" class="input-field" placeholder="Username">
                 <?= form_error('username', '<small class="text-danger mt-1">', '</small>') ?>
             </div>
 
             <div class="input-group">
-                <input type="password" id="password" name="password" class="input-field" placeholder="Password">
+                <input type="password" autocomplete="off" id="password" name="password" class="input-field" placeholder="Password">
                 <?= form_error('password', '<small class="text-danger mt-1">', '</small>') ?>
             </div>
 
 
             <div class="row">
 
-                <div class="col-sm-6">
-                    <a href="/sarikusuma/layanan" target="_blank">Daftar</a>
-                </div>
+                <!-- <div class="col-sm-6"> -->
+                <!-- <a href="/sarikusuma/layanan" target="_blank">Daftar</a> -->
+                <!-- </div> -->
                 <div class="col-sm-6">
 
-                    <a href="/sarikusuma/contact" target="_blank">Lupa Password</a>
+                    <a href="<?= base_url('login/forgotPassword') ?>" target="_blank">Lupa Password</a>
                 </div>
             </div>
 

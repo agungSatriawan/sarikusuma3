@@ -7,7 +7,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                       <a class="nav-link active" aria-current="page" href="<?= base_url() ?>">Home</a>
                   </li>
                   <li class="nav-item">
@@ -21,12 +21,12 @@
                       <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                           <li><a class="dropdown-item" href="#contact">Contact</a></li>
                           <li><a class="dropdown-item" href="#gallery">Gallery</a></li>
-                          <!-- <li><a class="dropdown-item" href="#layanan">Layanan</a></li> -->
+                      
                           <li>
                               <hr class="dropdown-divider" />
                           </li>
                       </ul>
-                  </li>
+                  </li> -->
               </ul>
               <div class="d-flex">
                   <ul class="navbar-nav me-auto mb-2 mb-lg-0">
