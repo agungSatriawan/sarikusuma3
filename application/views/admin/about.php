@@ -4,7 +4,7 @@
           <div class="row text-center">
               <div class="col">
                   <p></p>
-                  <h2>About Me</h2>
+                  <h2>About Me cek</h2>
               </div>
           </div>
           <div class="row justify-content-sm-between fs-5 mb-3">
